@@ -8,8 +8,13 @@ Brown: rgb(153, 117, 62)
 
 Grey: rgb(39,37,37)
  */
+html,
 body{
-  font-family: 'Roboto', sans-serif
+  font-family: 'Montserrat', sans-serif;
+}
+
+.invisible{
+    display: none;
 }
 
 @media screen and (max-width: 768px) {
@@ -29,15 +34,15 @@ li.whatever{
   margin-bottom: 0;
 }
 
+.navbar-toggle{
+    margin-top: 28px;
+}
+
 .navbar-large{
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(153, 117, 62, 0.7)), to(rgba(153, 117, 62, 0.2)));
   background: linear-gradient(to bottom, rgba(153, 117, 62, 0.7), rgba(153, 117, 62, 0.2));
-  padding-bottom: 20px;
-  padding-top: 30px;
-}
-.navbar-small{
-  padding-bottom: 10px;
-  padding-top: 10px;
+  height: 90px;
+  line-height: 80px;
 }
 
 .navbar-inverse {
@@ -48,16 +53,62 @@ li.whatever{
   font-size: 18px;
 }
 
-.navbar-nav>li>a{
-    color: #99753e!important;
+.navbar-brand{
+  width: 100px;
 }
 
 
-nav{
-  transition: .7s all;
-	-moz-transition: .7s all;
-	-webkit-transition: .7s all;
-	-o-transition: .7s all;
+.navbar-nav>li>a{
+  color: #99753e!important;
+  margin-top: 35px;
+  padding: 1px 2px;
+  margin-left: 35px;
+    
+}
+
+a.seventh:before{
+  right:0;
+}
+a.seventh:after{
+  left:0;
+}
+
+a.before:before,a.after:after{
+  content: "";
+  -webkit-transition:0.5s all ease;
+  transition:0.5s all ease;
+  -webkit-backface-visibility:hidden;
+          backface-visibility:hidden;
+  position:absolute;
+}
+
+a.before:before{
+  top: -0.15em;
+}
+a.after:after{
+  bottom:-0.15em;
+}
+
+a.before:before,
+a.after:after{
+  height:5px;
+  height:0.15rem;
+  width:0;
+  background:rgb(153, 117, 62);
+}
+
+a.before:hover:before,a.after:hover:after{
+  width:100%;
+}
+
+.logo,
+.logo-title{
+    display: inline-block;
+}
+
+.logo{
+    width: 70%;
+    height: auto;
 }
 
 .head-pic{
@@ -66,24 +117,75 @@ nav{
 }
 
 .header-image{
-  background-image: url("../img/concert.jpg");
-  background-position: center;
-  color: #fff;
-  font-size: 200%;
-  text-align: center;
-  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-  width: 100%;
-  height: 100%;
-  z-index:-1;
-  padding-bottom: 150px;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url("../img/cover1.png");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../img/cover1.png");
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+    font-size: 200%;
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+    z-index:-1;
+    padding-bottom: 150px;
 }
+
+.header-logo{
+    margin: 0 auto;
+    display: block;
+    margin-top: 130px;
+    width: 17%;;
+}
+
+.header-title{
+    margin: 0 auto;
+    display: block;
+    margin-top: 5px;
+    width: 16%;;
+}
+
 
 .title {
-  padding-top: 15%;
-  font-weight: 900;
-  font-size: 200%;
-
+  color: rgb(153, 117, 62);
+  padding-top: 5%;
+  font-weight: 300;
+  font-size: 100%;
 }
+
+
+/************* NAV BAR TRANSFORM ***************/
+nav,
+.logo,
+.navbar-brand,
+.navbar-nav>li>a {
+    transition: all 0.7s ease;
+    -moz-transition: all 0.7s ease;
+    -webkit-transition: all 0.7s ease;
+    -o-transition: all 0.7s ease;
+}
+
+.navbar-small{
+    height: 60px;
+    border-bottom: solid 3px rgb(153, 117, 62);
+    
+}
+
+.nav-li-small{
+    margin-top: 20px!important;
+}
+
+.logo-small{
+    width: 40%;
+    height: auto;
+    margin-bottom: 10px!important;
+}
+
+.navbar-brand-small{
+    padding-top: 12px!important;
+}
+
+
+/***********************************************/
 
 .section-one{
   background-color: #a5a5a5;
