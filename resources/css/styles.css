@@ -10,7 +10,9 @@ Grey: rgb(39,37,37)
  */
 html,
 body{
-  font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    
 }
 
 .invisible{
@@ -62,8 +64,7 @@ li.whatever{
   color: #99753e!important;
   margin-top: 35px;
   padding: 1px 2px;
-  margin-left: 35px;
-    
+  margin-left: 35px; 
 }
 
 a.seventh:before{
@@ -128,12 +129,13 @@ a.before:hover:before,a.after:hover:after{
     height: 100vh;
     z-index:-1;
     padding-bottom: 150px;
+    background-attachment: fixed;
 }
 
 .header-logo{
     margin: 0 auto;
     display: block;
-    margin-top: 130px;
+    margin-top: 180px;
     width: 17%;;
 }
 
@@ -187,28 +189,68 @@ nav,
 
 /***********************************************/
 
+h1{
+    color: #98743e;
+    text-transform: uppercase;
+    font-weight: 300;
+    margin: 0 auto;
+    width: 410px;
+    margin-top: 80px;
+    margin-bottom: 60px;
+    border-bottom: solid 1px #98743e;
+}
+
 .section-one{
-  background-color: #a5a5a5;
-  color: #fff;
-  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  background-color: #FFF;
+  color: rgb(39,37,37);
   font-size: 200%;
   text-align: center;
+    font-weight: 300px;
+  padding-bottom: 150px;
+}
+
+.service-name{
+    color:  #99753e;
+    line-height: 410px;
+    font-weight: 300;
+}
+
+.service-1,
+.service-2,
+.service-3{
+    height: 420px;
+    background: rgb(153, 117, 62);
+    margin: 10px 0; 
+    background-size: cover;
+}
+
+.service-1{
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4))), url("../img/compose.png");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4)), url("../img/compose.png");
+}
+
+.service-2{
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4))), url("../img/drums.png");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4)), url("../img/drums.png");
+}
+
+.service-3{
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4))), url("../img/live1.png");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4)), url("../img/live1.png");
 }
 
 .section-two{
-  background-color: #6b6b6b;
-  padding: 15%;
+  background-color: #6b6b6b;r
   color: #fff;
-  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
   font-size: 200%;
   text-align: center;
+    
 }
 
 .section-three{
   background-color: #444444;
   padding: 15%;
   color: #fff;
-  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
   font-size: 200%;
   text-align: center;
 }
