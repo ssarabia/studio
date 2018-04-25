@@ -53,5 +53,30 @@ $( document ).ready(function() {
             }); 
         }); 
     });
+    
+    $('.sv').hover(function(){
+        $(this).find(".service-container")
+            .animate({marginTop:"0", 
+                      width: "100%", 
+                      height: "100%",
+                      backgroundColor: "rgba(39, 37, 37, 0.9)"},
+                     400);
+        
+        $(this).find(".service-outline")
+            .animate({height: "100%",
+                     marginTop:"0"},
+                     400);
+    }, function(){
+        $(this).find(".service-container")
+            .animate({marginTop:"50%",
+                      width: "190px",
+                      height: "45px",
+                     backgroundColor: "rgba(39, 37, 37, 0.5)"},
+                     400);
+        $(this).find(".service-outline")
+            .animate({height: "28px"},
+                     400);
+
+    });
 
 });

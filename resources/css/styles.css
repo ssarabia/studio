@@ -37,7 +37,7 @@ li.whatever{
 }
 
 .navbar-toggle{
-    margin-top: 28px;
+    margin-top: 15px;
 }
 
 .navbar-large{
@@ -201,7 +201,7 @@ h1{
 }
 
 .section-one{
-  background-color: #FFF;
+  background-color: rgb(21, 20, 20);
   color: rgb(39,37,37);
   font-size: 200%;
   text-align: center;
@@ -209,18 +209,42 @@ h1{
   padding-bottom: 150px;
 }
 
+.service{
+    margin: 20px 0;
+}
+
+.service-container{
+    background: rgba(39, 37, 37, 0.5);
+    margin-top: 50%;
+    display: inline-block;
+    padding: 10px;
+    width: 190px;
+    height: 45px;
+    
+}
+
+.service-outline{
+    border: 1px solid rgb(153, 117, 62);
+    height: 28px;
+}
+
 .service-name{
     color:  #99753e;
-    line-height: 410px;
+    font-size:0.7em;
     font-weight: 300;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    
 }
 
 .service-1,
 .service-2,
 .service-3{
+    padding: 0!important;
     height: 420px;
     background: rgb(153, 117, 62);
-    margin: 10px 0; 
+    margin: 0; 
     background-size: cover;
 }
 
