@@ -8,12 +8,16 @@ $( document ).ready(function() {
         $(".navbar-nav>li>a").addClass("nav-li-small");
         $(".logo").addClass("logo-small");
         $(".navbar-brand").css("padding-top", "12px");
+        
+        $(".navbar-toggle").addClass("navbar-toggle-small");
   	} else {
   		$("nav").addClass("navbar-large");
         $("nav").removeClass("navbar-small");
   		$(".navbar-nav>li>a").removeClass("nav-li-small");
         $(".logo").removeClass("logo-small");
         $(".navbar-brand").css("padding-top", "15px");
+        
+        $(".navbar-toggle").removeClass("navbar-toggle-small");
   	}
 
   });

@@ -37,7 +37,17 @@ li.whatever{
 }
 
 .navbar-toggle{
-    margin-top: 15px;
+    margin-top: 30px;
+    
+    -webkit-transition:0.5s all ease;
+    
+    transition:0.5s all ease;
+      -webkit-backface-visibility:hidden;
+              backface-visibility:hidden;
+}
+
+.navbar-inverse .navbar-toggle{
+    border-color: rgb(153, 117, 62);
 }
 
 .navbar-large{
@@ -184,6 +194,10 @@ nav,
 
 .navbar-brand-small{
     padding-top: 12px!important;
+}
+
+.navbar-toggle-small{
+    margin-top: 13px!important;
 }
 
 
