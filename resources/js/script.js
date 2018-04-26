@@ -66,6 +66,9 @@ $( document ).ready(function() {
             .animate({height: "100%",
                      marginTop:"0"},
                      400);
+        
+        $(this).find(".service-desc")
+        .css("display", "block");
     }, function(){
         $(this).find(".service-container")
             .animate({marginTop:"50%",
@@ -76,6 +79,11 @@ $( document ).ready(function() {
         $(this).find(".service-outline")
             .animate({height: "28px"},
                      400);
+        $(this).find(".service-desc")
+        .animate({display: "none"},
+                 400);
+        $(this).find(".service-desc")
+        .css("display", "none");
 
     });
 

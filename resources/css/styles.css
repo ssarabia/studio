@@ -235,7 +235,14 @@ h1{
     box-sizing: border-box;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
-    
+}
+
+.service-desc{
+    color: #fff;
+    font-weight: 300px;
+    font-size: 0.6em;
+    margin-top: 100px;
+    display: none;
 }
 
 .service-1,
