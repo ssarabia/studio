@@ -128,8 +128,8 @@ a.before:hover:before,a.after:hover:after{
 }
 
 .header-image{
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url("../img/cover1.png");
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../img/cover1.png");
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4))), url("../img/cover6.png");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4)), url("../img/cover6.png");
     background-position: center;
     background-size: cover;
     color: #fff;
@@ -215,12 +215,12 @@ h1{
 }
 
 .section-one{
-  background-color: rgb(21, 20, 20);
+  background-color: rgb(11, 11, 11);
   color: rgb(39,37,37);
   font-size: 200%;
   text-align: center;
     font-weight: 300px;
-  padding-bottom: 150px;
+  padding-bottom: 100px;
 }
 
 .service{
@@ -232,7 +232,7 @@ h1{
     margin-top: 50%;
     display: inline-block;
     padding: 10px;
-    width: 190px;
+    width: 180px;
     height: 45px;
     
 }
@@ -284,17 +284,49 @@ h1{
     background-image: linear-gradient(rgba(0, 0, 0, 0.4)), url("../img/live1.png");
 }
 
+/*
 .section-two{
-  background-color: #6b6b6b;r
-  color: #fff;
-  font-size: 200%;
-  text-align: center;
-    
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5))), url("../img/who-we-are.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5)), url("../img/who-we-are.jpg");
+    background-size: cover;
+    background-position: 180px -180px;
+    color: #fff;
+    font-size: 200%;
+    text-align: center;
+}
+*/
+
+.section-two{
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5))), url("../img/who-we-are.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5)), url("../img/who-we-are.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 180px 0;
+    color: #fff;
+    font-size: 200%;
+    text-align: center;
+}
+
+.about-us-container{
+    background: -webkit-gradient(linear, left top, right top, from(rgb(72, 72, 72)),color-stop(rgba(72, 72, 72, 0.5)), to(rgba(0, 0, 0, 0.0)));
+    background: linear-gradient(to right, rgb(72, 72, 72),rgba(72, 72, 72, 0.5), rgba(0, 0, 0, 0.0));
+    height: 470px;
+}
+
+.about-us-title{
+    margin-top: 50px;
+    font-size: 0.9em;
+    margin-bottom: 30px;
+}
+
+.about-us-desc{
+    font-size: 14px;
+    margin: 0 auto;
+    width: 70%;
 }
 
 .section-three{
-  background-color: #444444;
-  padding: 15%;
+  background-color: rgb(62, 62, 62);
   color: #fff;
   font-size: 200%;
   text-align: center;
