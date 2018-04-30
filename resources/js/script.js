@@ -1,9 +1,26 @@
 $( document ).ready(function() {
 
+ var img = new Image();
+img.onload = function() { 
+    $(".navbar").removeClass("invisible");
+    $(".header-logo").removeClass("invisible");
+    
+    $('.header-logo').animateCss('rotateIn', function() {
+        $('.header-title').toggleClass('invisible');
+        $('.header-title').animateCss('bounceInDown', function() {
+            $('.title').toggleClass('invisible');
+            $('.title').animateCss('fadeIn', function() {
+            }); 
+        }); 
+    });
+}
+img.src = "./resources/img/cover3.png";
+
+
   $(document).on("scroll", function() {
 
   	if($(document).scrollTop()>100) {
-  		$("nav").removeClass("navbar-large");
+  		$("nav").removeClass("navbar-large");   
   		$("nav").addClass("navbar-small");
         $(".navbar-nav>li>a").addClass("nav-li-small");
         $(".logo").addClass("logo-small");
@@ -49,15 +66,6 @@ $( document ).ready(function() {
       },
     });
     
-    $('.header-logo').animateCss('rotateIn', function() {
-        $('.header-title').toggleClass('invisible');
-        $('.header-title').animateCss('bounceInDown', function() {
-            $('.title').toggleClass('invisible');
-            $('.title').animateCss('fadeIn', function() {
-            }); 
-        }); 
-    });
-    
     $('.sv').hover(function(){
         $(this).find(".service-container")
             .animate({marginTop:"0", 
@@ -71,6 +79,10 @@ $( document ).ready(function() {
                      marginTop:"0"},
                      400);
         
+        $(this).find(".service-name")
+            .animate({marginTop:"20px"},
+                     400);
+        
         $(this).find(".service-desc")
         .css("display", "block");
     }, function(){
@@ -82,6 +94,10 @@ $( document ).ready(function() {
                      400);
         $(this).find(".service-outline")
             .animate({height: "28px"},
+                     400);
+        
+        $(this).find(".service-name")
+            .animate({marginTop:"0"},
                      400);
         $(this).find(".service-desc")
         .animate({display: "none"},

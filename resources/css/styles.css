@@ -51,8 +51,8 @@ li.whatever{
 }
 
 .navbar-large{
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(153, 117, 62, 0.7)), to(rgba(153, 117, 62, 0.2)));
-  background: linear-gradient(to bottom, rgba(153, 117, 62, 0.7), rgba(153, 117, 62, 0.2));
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(39, 37, 37, 0.9)), to(rgba(39, 37, 37, 0.2)));
+  background: linear-gradient(to bottom, rgba(39, 37, 37, 0.9), rgba(39, 37, 37, 0.2));
   height: 90px;
   line-height: 80px;
 }
@@ -128,8 +128,9 @@ a.before:hover:before,a.after:hover:after{
 }
 
 .header-image{
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4))), url("../img/cover6.png");
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4)), url("../img/cover6.png");
+    background-color: #000;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4))), url("../img/cover3.png");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4)), url("../img/cover3.png");
     background-position: center;
     background-size: cover;
     color: #fff;
