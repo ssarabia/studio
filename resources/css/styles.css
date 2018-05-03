@@ -28,6 +28,7 @@ body{
 }
 
 li.whatever{
+    ui
   width: 100%;
 }  
 
@@ -332,6 +333,14 @@ h1{
   font-size: 200%;
   text-align: center;
 }
+
+.client-logo{
+    width: 100px;
+    margin: 50px 0;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
 
 .js--wp-1,
 .js--wp-2,
