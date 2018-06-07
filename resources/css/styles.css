@@ -6,7 +6,7 @@ Darkest grey: #444444
 
 Brown: rgb(153, 117, 62)
 
-Grey: rgb(39,37,37)
+Grey: #272525
  */
 html,
 body{
@@ -28,7 +28,6 @@ body{
 }
 
 li.whatever{
-    ui
   width: 100%;
 }  
 
@@ -316,7 +315,7 @@ h1{
 }
 
 .about-us-title{
-    margin-top: 50px;
+    margin-top: 17%;
     font-size: 0.9em;
     margin-bottom: 30px;
 }
@@ -328,19 +327,29 @@ h1{
 }
 
 .section-three{
-  background-color: rgb(62, 62, 62);
+  background-color: #1d1d1d;
   color: #fff;
   font-size: 200%;
   text-align: center;
+  padding-bottom: 90px;
 }
 
 .client-logo{
-    width: 100px;
-    margin: 50px 0;
-    -webkit-filter: grayscale(100%);
-    filter: grayscale(100%);
+    width: 150px;
+    margin: 30px auto;
+    -webkit-transition:0.5s all ease;
+    transition:0.5s all ease;
+
 }
 
+.grey-filter{
+    -webkit-filter: sepia(100%);
+    filter: sepia(100%); 
+}
+
+.slick-prev:before, .slick-next:before{
+    color: #272525;
+}
 
 .js--wp-1,
 .js--wp-2,

@@ -1,4 +1,16 @@
 $( document ).ready(function() {
+    
+var total = $('.slick-slideshow img').length,
+    rand = Math.floor( Math.random() * total );
+    
+    $('.clients').slick({
+        slidesToShow: 4,
+        slidesToScroll: 2,
+        autoplay: true,
+        autoplaySpeed: 2000,
+    });
+
+
 
  var img = new Image();
 img.onload = function() { 
@@ -105,6 +117,12 @@ img.src = "./resources/img/cover3.png";
         $(this).find(".service-desc")
         .css("display", "none");
 
+    });
+    
+    $('.client-logo').hover(function(){
+        $(this).removeClass('grey-filter');
+    }, function(){
+        $(this).addClass('grey-filter');
     });
 
 });
