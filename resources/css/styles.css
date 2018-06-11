@@ -4,7 +4,7 @@ Dark grey: #6b6b6b
 Darkest grey: #444444
 
 
-Brown: rgb(153, 117, 62)
+Brown: #99753e
 
 Grey: #272525
  */
@@ -12,11 +12,26 @@ html,
 body{
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
+    overflow-x: hidden;
     
 }
 
 .invisible{
     display: none;
+}
+
+.btn-full{
+    color: #d3d3d3;
+    background: #99753e;
+    outline: none;
+    border: 1px solid #99753e;
+    font-size: 20px;
+    padding: 7px 25px;
+}
+
+.btn-full:hover{
+    background: #846636;
+    border: 1px solid #846636;
 }
 
 @media screen and (max-width: 768px) {
@@ -216,7 +231,7 @@ h1{
 }
 
 .section-one{
-  background-color: rgb(11, 11, 11);
+  background-color: #0b0b0b;
   color: rgb(39,37,37);
   font-size: 200%;
   text-align: center;
@@ -326,12 +341,41 @@ h1{
     width: 70%;
 }
 
+.section-follow {
+    background-color: #121212;
+    color: #d3d3d3;
+    font-size: 24px;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    height: 200px;
+}
+
+.follow-me {
+    line-height: 200px;
+    margin-left: 60px;
+}
+
+.follow-social{
+    color: #99753e;
+    font-size: 40px;
+    margin: 80px 15px;
+}
+
+.follow-social:hover{
+    color: #7e6133;
+}
+
 .section-three{
-  background-color: #1d1d1d;
-  color: #fff;
-  font-size: 200%;
-  text-align: center;
-  padding-bottom: 90px;
+/*  background-color: #525252;*/
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(44, 44, 44, 0.8))), url("../img/clients-bg.png");
+    background-image: linear-gradient(rgba(44, 44, 44, 0.8)), url("../img/clients-bg.png");
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff;
+    font-size: 200%;
+    text-align: center;
+    padding-bottom: 90px;
 }
 
 .client-logo{
@@ -355,4 +399,78 @@ h1{
 .js--wp-2,
 .js--wp-3{
   max-width: 100%;
+
 }
+
+.map-container,
+.contact-form{
+    margin: 0!important;
+    padding: 0!important;
+}
+
+#map{
+    height: 500px;
+    margin:0;
+}
+
+.form-title{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 25px;
+    width: 195px;
+}
+
+.contact-form{
+    background-color: #171717;
+    height: 500px;
+    margin: auto 0;
+    text-align: center;
+}
+
+.contact-form input,
+textarea{
+    background-color: #6b6b6b;
+    font-size: 20px;
+    width: 550px;
+    border: 0 solid #6b6b6b;
+    padding: 10px 14px;
+    color: #d3d3d3;
+    outline: #99753e;
+    margin-bottom: 15px;
+}
+
+textarea{
+    resize: none;
+}
+
+.contact-form input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder{
+    color: #444444;
+    
+}
+
+.contact-form input:-ms-input-placeholder,
+textarea:-ms-input-placeholder{
+    color: #444444;
+    
+}
+
+.contact-form input::placeholder,
+textarea::placeholder{
+    color: #444444;
+    
+}
+
+input[type="text"]:focus,
+input[type="text"]:active,
+textarea:focus,
+textarea:active{
+    border:1px solid rgb(153, 117, 62) !important;
+}
+
+.contact-submit{
+    display: block;
+    margin: auto;
+}
+
+

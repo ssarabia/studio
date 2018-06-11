@@ -8,6 +8,7 @@ var total = $('.slick-slideshow img').length,
         slidesToScroll: 2,
         autoplay: true,
         autoplaySpeed: 2000,
+        pauseOnHover: true
     });
 
 
@@ -124,5 +125,6 @@ img.src = "./resources/img/cover3.png";
     }, function(){
         $(this).addClass('grey-filter');
     });
+
 
 });

@@ -9,7 +9,10 @@
     <link rel="stylesheet" href="vendors/slick.css">
     <link rel="stylesheet" href="vendors/slick-theme.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
 
+
+   
     <link rel="stylesheet" href="resources/css/styles.css">
 </head>
 
@@ -124,10 +127,26 @@
 
     </section>
 
+   
+   <section class="section-follow">
+       <div class="container">
+           <div class="row wow fadeInLeft" data-wow-delay="0.6s">
+               <div class="col-md-8">
+                   <p class="follow-me">Siguenos en las redes sociales!</p>
+               </div>
+               <div class="col">
+                   <a href="https://www.instagram.com/balboaestudio/" target="_blank"><i class="fab fa-instagram follow-social"></i></a>
+                   <a href="https://www.facebook.com/balboaestudio/" target="_blank"><i class="fab fa-facebook-square follow-social"></i></a>
+               </div>
+           </div>
+       </div>
+   </section>
+   
+   
     <section class="section-three">
         <div class="js--wp-3 container">
-            <h1>Nuestros clientes</h1>
-            <div class="clients">
+            <h1 class="wow fadeIn clients" data-wow-delay="0.6s">Nuestros clientes</h1>
+            <div class="wow fadeIn clients" data-wow-delay="1.5s">
                 <div class="">
                     <img class="client-logo grey-filter" src="resources/img/companies/alcaldiamedellin.png" alt="">
                 </div>
@@ -168,6 +187,45 @@
         </div>
 
     </section>
+    
+    <section class="section-four">
+        <div class="row">
+            <div class="col-md-6 map-container">
+                <div id="map"></div>
+            </div>
+            <div class="col-md-6 contact-form">
+                <h1 class="form-title">Contáctenos</h1>
+                <form action="" method="">
+                    <input type="text" placeholder="Nombre">
+                    <input type="text" placeholder="Email">
+                    <textarea rows="5" cols="50" placeholder="Tu mensaje aqui!"></textarea>
+                    <button class="btn-full contact-submit">Enviar!</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    
+    <section class="section-five">
+        
+    </section>
+    
+    <script>
+        var map;
+        var uluru = {lat: 6.212396, lng: -75.5993049};
+        function initMap() {
+            map = new google.maps.Map(document.getElementById('map'), {
+            center: uluru,
+            disableDefaultUI: true,
+            zoom: 16
+            });
+            var marker = new google.maps.Marker({position: uluru, map: map});
+        }
+    </script>
+    
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDkFAGPHWPaNwj8ih34nxQhNqhXxXFCsfI&callback=initMap"
+    async defer></script>
+
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.5/waypoints.min.js"></script>
@@ -175,7 +233,7 @@
     <script type="text/javascript" src="resources/js/wow.min.js"></script>
     <script type="text/javascript" src="resources/js/script.js"></script>
     <script type="text/javascript" src="vendors/slick.min.js"></script>
-    
+
 
     <script src="resources/js/wow.min.js"></script>
     <script>
