@@ -409,33 +409,35 @@ h1{
 }
 
 #map{
-    height: 500px;
+    height: 350px;
     margin:0;
 }
 
 .form-title{
     margin-top: 40px;
-    margin-bottom: 40px;
+    margin-bottom: 60px;
     font-size: 25px;
     width: 195px;
 }
 
 .contact-form{
     background-color: #171717;
-    height: 500px;
+    height: 600px;
     margin: auto 0;
     text-align: center;
 }
 
 .contact-form input,
 textarea{
+    display: block;
     background-color: #6b6b6b;
     font-size: 20px;
-    width: 550px;
+    width: 70%;
     border: 0 solid #6b6b6b;
     padding: 10px 14px;
     color: #d3d3d3;
     outline: #99753e;
+    margin: auto auto;
     margin-bottom: 15px;
 }
 
@@ -465,12 +467,19 @@ input[type="text"]:focus,
 input[type="text"]:active,
 textarea:focus,
 textarea:active{
+    background-color: #575757;
     border:1px solid rgb(153, 117, 62) !important;
+}
+
+input[type="text"]:hover,
+textarea:hover{
+    background-color: #575757;
 }
 
 .contact-submit{
     display: block;
     margin: auto;
+    margin-top: 35px;
 }
 
 

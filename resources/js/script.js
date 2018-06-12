@@ -126,5 +126,4 @@ img.src = "./resources/img/cover3.png";
         $(this).addClass('grey-filter');
     });
 
-
 });
