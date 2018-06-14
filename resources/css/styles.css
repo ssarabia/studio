@@ -231,12 +231,13 @@ h1{
 }
 
 .section-one{
-  background-color: #0b0b0b;
-  color: rgb(39,37,37);
-  font-size: 200%;
-  text-align: center;
+    background-color: #0b0b0b;
+    color: rgb(39,37,37);
+    font-size: 200%;
+    text-align: center;
     font-weight: 300px;
-  padding-bottom: 100px;
+    padding-top: 100px;
+    padding-bottom: 200px;
 }
 
 .service{
@@ -300,17 +301,6 @@ h1{
     background-image: linear-gradient(rgba(0, 0, 0, 0.4)), url("../img/live1.png");
 }
 
-/*
-.section-two{
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5))), url("../img/who-we-are.jpg");
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5)), url("../img/who-we-are.jpg");
-    background-size: cover;
-    background-position: 180px -180px;
-    color: #fff;
-    font-size: 200%;
-    text-align: center;
-}
-*/
 
 .section-two{
     background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5))), url("../img/who-we-are.jpg");
@@ -326,11 +316,11 @@ h1{
 .about-us-container{
     background: -webkit-gradient(linear, left top, right top, from(rgb(72, 72, 72)),color-stop(rgba(72, 72, 72, 0.5)), to(rgba(0, 0, 0, 0.0)));
     background: linear-gradient(to right, rgb(72, 72, 72),rgba(72, 72, 72, 0.5), rgba(0, 0, 0, 0.0));
-    height: 470px;
+    height: 530px;
 }
 
 .about-us-title{
-    margin-top: 17%;
+    margin-top: 20%;
     font-size: 0.9em;
     margin-bottom: 30px;
 }
@@ -338,17 +328,18 @@ h1{
 .about-us-desc{
     font-size: 14px;
     margin: 0 auto;
-    width: 70%;
+    width: 45%;
 }
 
 .section-follow {
-    background-color: #121212;
+    background-color: #525252;
     color: #d3d3d3;
     font-size: 24px;
     font-weight: 300;
     text-transform: uppercase;
     letter-spacing: 2px;
     height: 200px;
+    border:1px solid rgb(153, 117, 62)
 }
 
 .follow-me {
@@ -375,7 +366,7 @@ h1{
     color: #fff;
     font-size: 200%;
     text-align: center;
-    padding-bottom: 90px;
+    padding-bottom: 10%;
 }
 
 .client-logo{
@@ -414,15 +405,20 @@ h1{
 }
 
 .form-title{
-    margin-top: 40px;
+    margin-top: 100px;
     margin-bottom: 60px;
     font-size: 25px;
     width: 195px;
 }
 
 .contact-form{
-    background-color: #171717;
-    height: 600px;
+    
+    background-color: rgba(11, 11, 11, 0.97);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(11, 11, 11, 0.99))), url("../img/contact-background.jpg");
+    background-image: linear-gradient(rgba(11, 11, 11, 0.99)), url("../img/contact-background.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    height: 750px;
     margin: auto 0;
     text-align: center;
 }
@@ -439,6 +435,7 @@ textarea{
     outline: #99753e;
     margin: auto auto;
     margin-bottom: 15px;
+    border:1px solid rgba(0, 0, 0, 0);
 }
 
 textarea{
@@ -480,6 +477,43 @@ textarea:hover{
     display: block;
     margin: auto;
     margin-top: 35px;
+    margin-bottom: 100px;
 }
 
+footer{
+    background: #444444;
+    height: 200px;
+    color: #d3d3d3;
+    text-align: center;
+}
 
+.footer-info{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.footer-icons{ 
+    margin: 0 auto;
+    width: 80px; 
+}
+
+.footer-instagram,
+.footer-facebook{
+    font-size: 34px;
+    color: #d3d3d3;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.footer-instagram {
+    float: left;
+}
+
+.footer-facebook {
+    float:right;
+}
+
+.copyrights{
+    margin-top: 20px;
+    font-size: 12px;
+}
