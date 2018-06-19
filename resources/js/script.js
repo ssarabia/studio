@@ -8,7 +8,16 @@ var total = $('.slick-slideshow img').length,
         slidesToScroll: 2,
         autoplay: true,
         autoplaySpeed: 2000,
-        pauseOnHover: true
+        pauseOnHover: true,
+
+    });
+
+    
+    $('.studio').slick({
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 3000,
     });
 
 
