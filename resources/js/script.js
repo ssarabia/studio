@@ -5,10 +5,11 @@ var total = $('.slick-slideshow img').length,
     
     $('.clients').slick({
         slidesToShow: 4,
-        slidesToScroll: 2,
+        slidesToScroll: 1,
         autoplay: true,
-        autoplaySpeed: 2000,
-        pauseOnHover: true,
+        autoplaySpeed: 0,
+        speed: 5000,
+        cssEase: 'linear',
 
     });
 
@@ -17,9 +18,10 @@ var total = $('.slick-slideshow img').length,
         slidesToShow: 4,
         slidesToScroll: 1,
         autoplay: true,
-        autoplaySpeed: 3000,
+        autoplaySpeed: 0,
+        speed: 7000,
+        cssEase: 'linear'
     });
-
 
 
  var img = new Image();
@@ -110,7 +112,7 @@ img.src = "./resources/img/cover3.png";
     }, function(){
         $(this).find(".service-container")
             .animate({marginTop:"50%",
-                      width: "190px",
+                      width: "210px",
                       height: "45px",
                      backgroundColor: "rgba(39, 37, 37, 0.5)"},
                      400);
