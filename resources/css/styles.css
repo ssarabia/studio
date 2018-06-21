@@ -238,13 +238,20 @@ h1 {
     text-transform: uppercase;
     font-weight: 300;
     margin: 0 auto;
-    width: 410px;
     margin-top: 80px;
     margin-bottom: 60px;
     border-bottom: solid 1px #98743e;
+    display: inline-block;
 }
 
-.section-one {
+
+/* ----------------------------------------------- */
+
+/* SERVICES SECTION*/
+
+/* ----------------------------------------------- */
+
+.section-services {
     background-color: #0b0b0b;
     color: rgb(39, 37, 37);
     font-size: 200%;
@@ -321,6 +328,13 @@ h1 {
 
 /* ----------------------------------------------- */
 
+/* END OF SERVICES SECTION*/
+
+/* ----------------------------------------------- */
+
+
+/* ----------------------------------------------- */
+
 /* Studio */
 
 /* ----------------------------------------------- */
@@ -350,32 +364,38 @@ h1 {
 .studio img {
     margin: auto;
     width: 100%;
-    opacity: 0.4;
     -webkit-transform: scale(1.15);
-    transform: scale(1.15) -webkit-transition: -webkit-transform 0.5s, opacity 0.5s;
-    transition: transform 0.5s, opacity 0.5s;
+    transform: scale(1.15) -webkit-transition: -webkit-transform 0.5s;
+    transition: transform 0.5s;
 }
 
 .studio img:hover {
-    opacity: 1;
     -webkit-transform: scale(1.03);
     -ms-transform: scale(1.03);
     transform: scale(1.03);
 }
 
-/*************************************/
+/* ----------------------------------------------- */
 
 /*END OF STUDIO SECTION*/
 
-/*************************************/
+/* ----------------------------------------------- */
 
-.section-two {
-    background: rgb(12, 12, 12);
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3))), url("../img/wer2.jpg");
-    background-image: linear-gradient(rgba(0, 0, 0, 0.0)), url("../img/wer2.jpg");
-    background-size: cover;
+
+/* ----------------------------------------------- */
+
+/*ABOUT US SECTION*/
+
+/* ----------------------------------------------- */
+
+.section-about-us {
+    background: rgb(0, 0, 0);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3))), url("../img/studio/1.png");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.0)), url("../img/studio/1.png");
+    background-size: 70%;
     background-attachment: fixed;
-    background-position: 250px 0px;
+    background-position: 500px 70px;
+/*    background-position: 500px 150%;*/
     background-repeat: no-repeat;
     color: #fff;
     font-size: 200%;
@@ -388,31 +408,99 @@ h1 {
 }
 
 .about-us-title {
-    margin-top: 20%;
+    margin-top: 19%;
     font-size: 0.9em;
     margin-bottom: 30px;
 }
 
 .about-us-desc {
-    font-size: 14px;
+    font-size: 16px;
     margin: 0 auto;
     width: 45%;
 }
 
+/* ----------------------------------------------- */
+
+/*ENF OF ABOUT US SECTION*/
+
+/* ----------------------------------------------- */
+
+
+/* ----------------------------------------------- */
+
+/* OUR TEAM SECTION */
+
+/* ----------------------------------------------- */
+
+.section-our-team{
+    background-color: #0b0b0b;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 200px;
+}
+
+.team p{
+    color: #fff;
+    font-size: 18px;
+}
+
+.team .row{
+    margin-top: 50px;
+}
+
+.team img{
+    width: 60%;
+    border: 1px solid #99753e;
+    opacity: 0.6;
+    transition: opacity 0.5s;
+}
+
+.team img:hover{
+    opacity: 1;
+}
+
+
+.member-name{
+    color:#99753e;
+    font-weight: 100;
+    font-size: 34px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.member-title{
+    color:#fff;
+    font-weight: 100;
+    font-size: 18px;
+}
+
+/* ----------------------------------------------- */
+
+/*END OF OUT TEAM SECTION*/
+
+/* ----------------------------------------------- */
+
+
+/* ----------------------------------------------- */
+
+/*FOLLOW US SECTION*/
+
+/* ----------------------------------------------- */
 .section-follow {
     background-color: #525252;
-    color: #d3d3d3;
+    color: #fff;
     font-size: 24px;
     font-weight: 300;
     text-transform: uppercase;
     letter-spacing: 2px;
     height: 200px;
-    border: 1px solid rgb(153, 117, 62)
+    border: 1px solid rgb(153, 117, 62);
 }
 
 .follow-me {
-    line-height: 200px;
-    margin-left: 60px;
+    line-height: 199px;
+    margin-bottom: 0;
+/*    margin-left: 60px;*/
 }
 
 .follow-social {
@@ -425,7 +513,13 @@ h1 {
     color: #7e6133;
 }
 
-.section-three {
+/* ----------------------------------------------- */
+
+/*END OF FOLLOW US SECTION*/
+
+/* ----------------------------------------------- */
+
+.section-clients {
     /*  background-color: #525252;*/
     background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(44, 44, 44, 0.8))), url("../img/clients-bg.png");
     background-image: linear-gradient(rgba(44, 44, 44, 0.8)), url("../img/clients-bg.png");
@@ -435,6 +529,7 @@ h1 {
     font-size: 200%;
     text-align: center;
     padding-bottom: 10%;
+    text-align: center;
 }
 
 .client-logo {
@@ -545,6 +640,8 @@ textarea:hover {
     margin-bottom: 100px;
 }
 
+
+
 footer {
     background: #444444;
     height: 200px;
@@ -552,28 +649,31 @@ footer {
     text-align: center;
 }
 
+footer .row{
+    margin-top: 30px;
+}
+
 .footer-info {
-    text-align: center;
-    margin-top: 10px;
+    text-align: left;
+    display: inline-block;
+    float: left;
+    margin-right: 70px;
 }
 
 .footer-icons {
-    margin: 0 auto;
     width: 80px;
 }
+
 
 .footer-instagram,
 .footer-facebook {
     font-size: 34px;
     color: #d3d3d3;
-    margin-top: 25px;
-    margin-bottom: 20px;
 }
 
 .footer-instagram {
     float: left;
 }
-
 .footer-facebook {
     float: right;
 }
@@ -581,5 +681,6 @@ footer {
 .copyrights {
     margin-top: 20px;
     font-size: 12px;
+    display: block;
 }
 
