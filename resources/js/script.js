@@ -20,7 +20,10 @@ var total = $('.slick-slideshow img').length,
         autoplay: true,
         autoplaySpeed: 0,
         speed: 7000,
-        cssEase: 'linear'
+        cssEase: 'linear',
+        variableWidth: true,
+        pauseOnHover:false
+
     });
 
 
@@ -111,7 +114,7 @@ img.src = "./resources/img/cover3.png";
         .css("display", "block");
     }, function(){
         $(this).find(".service-container")
-            .animate({marginTop:"50%",
+            .animate({marginTop:"175px",
                       width: "210px",
                       height: "45px",
                      backgroundColor: "rgba(39, 37, 37, 0.5)"},

@@ -173,16 +173,14 @@ a.after:hover:after {
     margin: 0 auto;
     display: block;
     margin-top: 180px;
-    width: 17%;
-    ;
+    width: 21%;
 }
 
 .header-title {
     margin: 0 auto;
     display: block;
     margin-top: 5px;
-    width: 16%;
-    ;
+    width: 20%;
 }
 
 
@@ -190,7 +188,7 @@ a.after:hover:after {
     color: rgb(153, 117, 62);
     padding-top: 5%;
     font-weight: 300;
-    font-size: 100%;
+    font-size: 0.9em;
 }
 
 
@@ -267,7 +265,7 @@ h1 {
 
 .service-container {
     background: rgba(39, 37, 37, 0.5);
-    margin-top: 50%;
+    margin-top: 175px;
     display: inline-block;
     padding: 10px;
     width: 210px;
@@ -349,12 +347,11 @@ h1 {
 
 .studio{
     margin: auto;
-    margin-top: 5%;
+    margin-top: 78px;
 }
 
-
 .background {
-    width: 90%;
+    width: 335px;
     margin: auto 15px;
     overflow: hidden;
     background-color: #000;
