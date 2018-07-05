@@ -17,12 +17,29 @@
     .header-title{
         width: 23%;
     }
+    .section-about-us{
+        background-position: 100% 0%;
+    }
+    
+    .me-container{
+        text-align: center;
+    }
+    .follow-me {
+       line-height: 80px
+    }
+    .follow-social {
+        margin-top: 0;
+        margin-bottom: 30px;
+        font-size: 3.2em
+    }
     
 }
 
 /* Small phones to small tablets: from 481px to 767px */
 @media only screen and (max-width: 767px) {
-
+    .section-about-us{
+        background-position: 80% 0%;
+    }
 }
 
 @media only screen and (max-width: 675) {
@@ -32,17 +49,12 @@
     .header-title{
         width: 27%;
     }
-
 }
 
-
-/* Small phones: from 0 to 480px */
-@media only screen and (max-width: 480px) {
-    .header-logo {
-        width: 32%;
-    }
-    .header-title{
-        width: 31%;
+@media only screen and (max-width: 560px) {
+    .follow-me {
+       line-height: 40px;
+        margin: 20px 0;
     }
 }
 

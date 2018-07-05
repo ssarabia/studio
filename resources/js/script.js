@@ -10,6 +10,8 @@ var total = $('.slick-slideshow img').length,
         autoplaySpeed: 0,
         speed: 5000,
         cssEase: 'linear',
+        variableWidth: true,
+        pauseOnHover:false
 
     });
 

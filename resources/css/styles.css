@@ -387,12 +387,10 @@ h1 {
 
 .section-about-us {
     background: rgb(0, 0, 0);
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3))), url("../img/studio/1.png");
-    background-image: linear-gradient(rgba(0, 0, 0, 0.0)), url("../img/studio/1.png");
-    background-size: 70%;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3))), url("../img/studio/b1.png");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.0)), url("../img/studio/b1.png");
+    background-size: cover;
     background-attachment: fixed;
-    background-position: 500px 70px;
-/*    background-position: 500px 150%;*/
     background-repeat: no-repeat;
     color: #fff;
     font-size: 200%;
@@ -400,8 +398,9 @@ h1 {
 }
 
 .about-us-container {
-    background: linear-gradient(to right, rgb(12, 12, 12), rgba(12, 12, 12, 1), rgba(12, 12, 12, 0.0));
+    background: linear-gradient(to right, rgba(72, 72, 72, 0.8), rgba(72, 72, 72, 0.0));
     height: 530px;
+    margin-left: 0!important;
 }
 
 .about-us-title {
@@ -433,7 +432,7 @@ h1 {
     background-color: #0b0b0b;
     text-align: center;
     padding-top: 50px;
-    padding-bottom: 200px;
+    padding-bottom: 150px;
 }
 
 .team p{
@@ -469,6 +468,7 @@ h1 {
     color:#fff;
     font-weight: 100;
     font-size: 18px;
+    margin-bottom: 50px;
 }
 
 /* ----------------------------------------------- */
@@ -486,23 +486,22 @@ h1 {
 .section-follow {
     background-color: #525252;
     color: #fff;
-    font-size: 24px;
     font-weight: 300;
     text-transform: uppercase;
     letter-spacing: 2px;
-    height: 200px;
-    border: 1px solid rgb(153, 117, 62);
+    border-top: 1px solid rgb(153, 117, 62);
+    border-bottom: 1px solid rgb(153, 117, 62);
 }
 
 .follow-me {
     line-height: 199px;
     margin-bottom: 0;
-/*    margin-left: 60px;*/
+    font-size: 1.8em;
 }
 
 .follow-social {
     color: #99753e;
-    font-size: 60px;
+    font-size: 4.3em;
     margin: 70px 45px;
 }
 
@@ -531,7 +530,7 @@ h1 {
 
 .client-logo {
     width: 150px;
-    margin: 30px auto;
+    margin: 30px 20px;
     -webkit-transition: 0.5s all ease;
     transition: 0.5s all ease;
 
