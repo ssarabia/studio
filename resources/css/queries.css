@@ -17,6 +17,12 @@
     .header-title{
         width: 23%;
     }
+    
+    .service-1,
+    .service-2,
+    .service-3 {
+        background-position: 0!important;
+    }
     .section-about-us{
         background-position: 100% 0%;
     }
@@ -40,7 +46,33 @@
     .section-about-us{
         background-position: 80% 0%;
     }
+    ul.overlay {
+        position: fixed;
+        background-color: rgba(153, 117, 62, 0.13);
+        width: 100%;
+        margin: auto 0!important;
+    }
+    .navbar-nav > li > a {
+        display: inline-block;
+        margin-top: 5px;
+        padding: 1px 2px;
+        margin-left: 0;
+    }
+    .nav-opt {
+        height: 60px;
+    }
+    
+    .nav-opt:nth-of-type(3n){
+        margin-bottom: 10px;
+    }
+    
+    .navbar-collapse {
+        padding-left: 0!important;
+        margin-left: 0;
+    }
 }
+
+
 
 @media only screen and (max-width: 675) {
     .header-logo {

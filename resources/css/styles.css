@@ -1,4 +1,4 @@
-/* Colors:
+4/* Colors:
 Mid grey: #a5a5a5
 Dark grey: #6b6b6b
 Darkest grey: #444444
@@ -39,14 +39,6 @@ body {
 .btn-full:hover {
     background: #846636;
     border: 1px solid #846636;
-}
-
-@media screen and (max-width: 768px) {
-    ul.overlay {
-        position: fixed;
-        background-color: rgba(153, 117, 62, 0.13);
-        width: 100%;
-    }
 }
 
 li.whatever {
@@ -307,8 +299,9 @@ h1 {
 }
 
 .service-1 {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4))), url("../img/compose.png");
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7)), url("../img/compose.png");
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4))), url("../img/produccion.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7)), url("../img/produccion.jpg");
+    background-position: -130px 0;
 }
 
 .service-2 {
@@ -318,8 +311,8 @@ h1 {
 }
 
 .service-3 {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4))), url("../img/music.jpg");
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7)), url("../img/live1.png");
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4))), url("../img/musicalizacion.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7)), url("../img/musicalizacion.jpg");
     background-position: -100px 0;
 }
 
