@@ -24,7 +24,8 @@ var total = $('.slick-slideshow img').length,
         speed: 7000,
         cssEase: 'linear',
         variableWidth: true,
-        pauseOnHover:false
+        pauseOnHover:false,
+        arrows: false
 
     });
 
