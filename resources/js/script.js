@@ -1,5 +1,22 @@
 $( document ).ready(function() {
     
+/* Navigation scroll */
+$(function() {
+  $('a[href*=#]:not([href=#])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html,body').animate({
+          scrollTop: target.offset().top
+        }, 1000);
+        return false;
+      }
+    }
+  });
+});    
+    
+    
 var total = $('.slick-slideshow img').length,
     rand = Math.floor( Math.random() * total );
     
