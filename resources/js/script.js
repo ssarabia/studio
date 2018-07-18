@@ -16,6 +16,12 @@ $(function() {
   });
 });    
     
+    if ( $(window).width() < 767) {
+     $('.nav-container').removeClass('container');
+    }else {
+        $('.nav-container').addClass('container');
+    }
+    
     
 var total = $('.slick-slideshow img').length,
     rand = Math.floor( Math.random() * total );
@@ -28,7 +34,15 @@ var total = $('.slick-slideshow img').length,
         speed: 5000,
         cssEase: 'linear',
         variableWidth: true,
-        pauseOnHover:false
+        pauseOnHover:false,
+        responsive: [
+            {
+              breakpoint: 768,
+              settings: {
+                arrows: false
+              }
+            }
+        ]
 
     });
 
@@ -161,3 +175,12 @@ img.src = "./resources/img/cover3.png";
     });
 
 });
+
+
+ $(window).resize(function() {
+    if ( $(window).width() < 767) {
+     $('.nav-container').removeClass('container');
+    }else {
+        $('.nav-container').addClass('container');
+    }
+ });
