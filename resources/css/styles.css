@@ -161,11 +161,13 @@ a.after:hover:after {
     text-align: center;
     width: 100%;
     height: 100vh;
-    z-index: -1;
+    z-index: -20;
     padding-bottom: 150px;
     background-attachment: fixed;
 }
-
+.header-video{
+    width:100%;    
+}
 .header-logo {
     margin: 0 auto;
     display: block;
@@ -269,7 +271,6 @@ h1 {
     padding: 10px;
     width: 210px;
     height: 45px;
-
 }
 
 .service-outline {
@@ -288,8 +289,9 @@ h1 {
 
 .service-desc {
     color: #fff;
-    font-weight: 300px;
-    font-size: 0.6em;
+    font-weight: 100;
+    font-size: 1.1em;
+    margin: 0 10px;
     margin-top: 100px;
     display: none;
 }
@@ -409,15 +411,18 @@ h1 {
 }
 
 .about-us-title {
-    margin-top: 19%;
     font-size: 0.9em;
     margin-bottom: 30px;
 }
 
 .about-us-desc {
-    font-size: 16px;
+/*    color: #98743e;*/
+    font-size: 38px;
+    font-weight: 100;
     margin: 0 auto;
+    margin-top: 19%;
     width: 45%;
+    text-transform: uppercase;
 }
 
 .anti-stretch{
@@ -447,6 +452,7 @@ h1 {
 .team p{
     color: #fff;
     font-size: 18px;
+    font-weight: 100;
 }
 
 .team .row{
@@ -454,7 +460,7 @@ h1 {
 }
 
 .team img{
-    width: 60%;
+    width: 100%;
     border: 1px solid #99753e;
     opacity: 0.6;
     transition: opacity 0.5s;
@@ -468,7 +474,7 @@ h1 {
 .member-name{
     color:#99753e;
     font-weight: 100;
-    font-size: 34px;
+    font-size: 30px;
     margin-top: 20px;
     margin-bottom: 10px;
 }
@@ -476,7 +482,7 @@ h1 {
 .member-title{
     color:#fff;
     font-weight: 100;
-    font-size: 18px;
+    font-size: 16px;
     margin-bottom: 50px;
 }
 
@@ -565,7 +571,11 @@ h1 {
 .map-container,
 .contact-form {
     margin: 0!important;
-    padding: 0!important;
+    padding: 0;
+}
+
+.contact-form{
+    padding-bottom: 100px;
 }
 
 #map {
@@ -583,7 +593,6 @@ h1 {
 .contact-form {
 
     background-color: rgba(11, 11, 11, 0.96);
-    height: 750px;
     margin: auto 0;
     text-align: center;
 }
@@ -642,10 +651,27 @@ textarea:hover {
     display: block;
     margin: auto;
     margin-top: 35px;
-    margin-bottom: 100px;
 }
 
+.success,
+.error{
+    width: 70%;
+    margin: 0 auto;
+    font-size: 1.4em;
+    font-weight: 300;
+    padding: 10px 0;
+    margin-bottom: 30px;
+    color: #fff;
+}
+.success{
+    background: rgba(62, 178, 75, 0.69);
+    border: 2px solid rgb(62, 178, 75);
+}
 
+.error{
+    background: rgba(178, 62, 62, 0.69);
+    border: 2px solid rgb(178, 62, 62);
+}
 
 footer {
     background: #444444;

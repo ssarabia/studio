@@ -99,6 +99,12 @@
        line-height: 40px;
         margin: 20px 0;
     }
+    .member-name{
+        font-size: 22px;
+    }
+    .member-title{
+        font-size: 14px;
+    }
 }
 
 
@@ -109,5 +115,9 @@
     }
     .header-title{
         width: 31%;
+    }
+    .about-us-desc {
+        margin-top: 35%;
+        font-size: 30px;
     }
 }

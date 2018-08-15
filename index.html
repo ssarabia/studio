@@ -53,6 +53,7 @@
                             <ul class="nav navbar-nav navbar-right overlay">
                                 <li class="nav-opt"><a class="seventh before after" href="#services">SERVICIOS</a></li>
                                 <li class="nav-opt"><a class="seventh before after" href="#about-us">QUIENES SOMOS</a></li>
+                                <li class="nav-opt"><a class="seventh before after" href="#team">EQUIPO</a></li>
                                 <li class="nav-opt"><a class="seventh before after" href="#contact">CONTÁCTANOS</a></li>
                             </ul>
                         </div>
@@ -69,12 +70,17 @@
                 <img class="header-title invisible" src="resources/img/title-brown.png" alt="">
                 <p class="title invisible">PRODUCCIÓN Y GRABACIÓN <br>DE AUDIO</p>
             </div>
+<!--
+        <video class="header-video" autoplay>
+          <source src="resources/video/logo-video.mp4" type="video/mp4">
+        </video>
+-->
         </div>
     </header>
 
     <section class="section-services">
         <div id="services" class="js--wp-1 container">
-            <h1>Nuestros servicios</h1>
+            <h1>Lo Que Hacemos</h1>
             <div class="wow fadeIn row" data-wow-delay="1s">
                 <div class="service col-md-4">
                    <div class="sv service-3">
@@ -165,7 +171,7 @@
        <div class="row anti-stretch">
             <div class="col-sm-8 anti-padding">
                 <div class="js--wp-2 container about-us-container" data-wow-delay="1.5s">
-                    <h1 class="about-us-title wow fadeInLeft " >Quienes Somos</h1>
+<!--                    <h1 class="about-us-title wow fadeInLeft " >Quienes Somos</h1>-->
                     <p class="about-us-desc wow fadeInLeft " >Amamos la música, por todo lo que puede lograr</p>
                 </div>
             </div>           
@@ -175,25 +181,38 @@
 
     </section>
 
-    <section class="section-our-team">
+    <section class="section-our-team" id="team">
         <div class="container team">
-            <h1>Nuestros Equipo</h1>
-            <p>Bacon ipsum dolor amet sirloin bresaola jowl picanha turkey tri-tip ham ham hock turducken porchetta kielbasa short loin pork ribeye. Meatloaf sirloin andouille kevin. Short loin jowl pork chicken meatloaf landjaeger ground round.</p>
+            <h1>Quienes Somos</h1>
             <div class="row">
-                <div class="col-md-6 team-member">
+                <div class="col-xs-6 col-md-3 team-member">
                     <div class="member-img">
                         <img src="resources/img/team-t.jpg" alt="Tomas Ok">
                     </div>
-                    <div class="member-name">Tomas Botero</div>
-                    <div class="member-title">Oderless/Average/Ok</div>
+                    <div class="member-name">Tomás Botero</div>
+                    <div class="member-title">Productor Musical y Arreglista</div>
                 </div>   
-                <div class="col-md-6 team-member">
+                <div class="col-xs-6 col-md-3 team-member">
+                    <div class="member-img">
+                        <img src="resources/img/team-m.jpg" alt="Simon Cool">
+                    </div>
+                    <div class="member-name">Mateo Hernández</div>
+                    <div class="member-title">Compositor</div>
+                </div>  
+                <div class="col-xs-6 col-md-3 team-member">
                     <div class="member-img">
                         <img src="resources/img/team-s.jpg" alt="Simon Cool">
                     </div>
-                    <div class="member-name">Simon Correa</div>
-                    <div class="member-title">Super Cool/Talented</div>
-                </div>    
+                    <div class="member-name">Simón Correa</div>
+                    <div class="member-title">Ingeniero de Mezcla y Grabación</div>
+                </div>   
+                <div class="col-xs-6 col-md-3 team-member">
+                    <div class="member-img">
+                        <img src="resources/img/team-v.jpg" alt="Simon Cool">
+                    </div>
+                    <div class="member-name">Tomás Perez</div>
+                    <div class="member-title">Productor Vocal y Asistente de Grabación</div>
+                </div> 
             </div>
         </div>
     </section>
@@ -261,12 +280,27 @@
     
     <section class="section-four" id="contact">
         <div class="row anti-stretch">
-            <div class="col-md-12 contact-form">
-                <h1>Contáctenos</h1>
-                <form action="" method="">
-                    <input type="text" placeholder="Nombre">
-                    <input type="text" placeholder="Email">
-                    <textarea rows="7" cols="50" placeholder="Tu mensaje aqui!"></textarea>
+            <div class="col-md-12 contact-form" id="form">
+                <h1>Contactanos</h1>
+                
+<!--                <div class="container">
+                   <div class="row">
+                       <?php
+                            if($_GET[success] == 1){
+                                echo"<div class=\"col success\">Gracias! Su mensaje ha sido enviado!</div>"
+                            }
+                            if($_GET[success] == -1){
+                                echo"<div class=\"col error\">Oops! Hubo un error. Intenta de nuevo!</div>"
+                            }
+
+
+                        ?>
+                   </div>
+                </div>-->
+                <form action="" method="r">
+                    <input type="text" name="name" id="name" placeholder="Nombre">
+                    <input type="text" name="email" id="email" placeholder="Email">
+                    <textarea rows="7" cols="50" name="message" id="message"placeholder="Tu mensaje aqui!"></textarea>
                     <button class="btn-full contact-submit">Enviar!</button>
                 </form>
             </div>
@@ -281,12 +315,12 @@
         <div class="row">
             <div class="col-xs-12 col-sm-4">
                 <p class="footer-info">
-                contacto@balboaestudio.com<br>(312) 576-8982 <br>351 55 24
+                    info@balboaestudio.com<br>(318) 676-9332 <br>(317) 668-8695 <br>(034) 341-5524
                 </p>
             </div>
             <div class="col-xs-12 col-sm-4">
                 <p class="footer-info">
-                Diagonal 57B No. 01 - 289 <br>Medellín - Colombia <br>351 55 24
+                Diagonal B No.01 - 289 <br>Medellín - Colombia
                 </p>
             </div>
             <div class="col-xs-12 col-sm-4">
@@ -331,7 +365,7 @@
     <script type="text/javascript" src="resources/js/wow.min.js"></script>
     <script type="text/javascript" src="vendors/slick.min.js"></script>
     <script type="text/javascript" src="resources/js/script.js"></script>
-    <script type="text/javascript" src="resources/js/instagramme.js"></script>
+    
     
 
 

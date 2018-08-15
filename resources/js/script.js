@@ -16,12 +16,13 @@ $(function() {
   });
 });    
     
-    if ( $(window).width() < 767) {
-     $('.nav-container').removeClass('container');
-    }else {
-        $('.nav-container').addClass('container');
-    }
-    
+if ( $(window).width() < 767) {
+ $('.nav-container').removeClass('container');
+}else {
+    $('.nav-container').addClass('container');
+}
+
+
     
 var total = $('.slick-slideshow img').length,
     rand = Math.floor( Math.random() * total );
