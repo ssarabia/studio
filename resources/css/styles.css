@@ -460,7 +460,7 @@ h1 {
 }
 
 .team img{
-    width: 100%;
+    width: 60%;
     border: 1px solid #99753e;
     opacity: 0.6;
     transition: opacity 0.5s;

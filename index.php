@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Balboa Estudio</title>
-
+    <meta name="google-site-verification" content="v-fE4zGDSdYKbLl15h6wNYqykl_pdyDttMXH7eFiLjc" />
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -24,6 +24,7 @@
    
     <link rel="stylesheet" href="resources/css/styles.css">
     <link rel="stylesheet" href="resources/css/queries.css">
+    <script type="text/javascript" async src="https://d335luupugsy2.cloudfront.net/js/loader-scripts/3970a66c-9ed7-4580-bc18-62d07d1a625d-loader.js"></script>
 </head>
 
 <body>
@@ -51,16 +52,13 @@
                         <!-- Collect the nav links, forms, and other content for toggling -->
                         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                             <ul class="nav navbar-nav navbar-right overlay">
-                                <li class="nav-opt"><a class="seventh before after" href="#services">QUE HACEMOS</a></li>
-<!--                                <li class="nav-opt"><a class="seventh before after" href="#about-us">QUIENES SOMOS</a></li>-->
-                                <li class="nav-opt"><a class="seventh before after" href="#team">QUIENENS SOMOS</a></li>
-                                <li class="nav-opt"><a class="seventh before after" href="#contact">CONTACTENOS</a></li>
+                                <li class="nav-opt"><a class="seventh before after" href="#services">LO QUE HACEMOS</a></li>
+                                <li class="nav-opt"><a class="seventh before after" href="#team">QUIÉNES SOMOS</a></li>
+                                <li class="nav-opt"><a class="seventh before after" href="#contact">CONTÁCTENOS</a></li>
                             </ul>
                         </div>
-                        <!-- /.navbar-collapse -->
                     </div>
                 </div>
-                <!-- /.container-fluid -->
             </nav>
         </div>
 
@@ -70,11 +68,6 @@
                 <img class="header-title invisible" src="resources/img/title-brown.png" alt="">
                 <p class="title invisible">PRODUCCIÓN Y GRABACIÓN <br>DE AUDIO</p>
             </div>
-<!--
-        <video class="header-video" autoplay>
-          <source src="resources/video/logo-video.mp4" type="video/mp4">
-        </video>
--->
         </div>
     </header>
 
@@ -130,8 +123,8 @@
     </section>
     
         <section class="section-studio">
+           <h2 class="invisible">Studio Pictures</h2>
             <div class="studio">
-
                <div class="background"> 
                 <div class="studio-photo">
                     <img src="resources/img/studio/2.png" alt="">
@@ -168,11 +161,11 @@
         </section>
 
     <section class="section-about-us" id="about-us">
+      <h2 class="invisible">about us</h2>
        <div class="row anti-stretch">
             <div class="col-sm-8 anti-padding">
                 <div class="js--wp-2 container about-us-container" data-wow-delay="1.5s">
-<!--                    <h1 class="about-us-title wow fadeInLeft " >Quienes Somos</h1>-->
-                    <p class="about-us-desc wow fadeInLeft " >Amamos la música, por todo lo que puede lograr</p>
+                    <p class="about-us-desc wow fadeInLeft " >Amamos la música, por todo lo que puede lograr.</p>
                 </div>
             </div>           
             <div class="col-sm-4 us-image">
@@ -183,7 +176,7 @@
 
     <section class="section-our-team" id="team">
         <div class="container team">
-            <h1>Quienes Somos</h1>
+            <h1>Quiénes Somos</h1>
             <div class="row">
                 <div class="col-xs-6 col-md-6 team-member">
                     <div class="member-img">
@@ -194,13 +187,6 @@
                 </div>   
                 <div class="col-xs-6 col-md-6 team-member">
                     <div class="member-img">
-                        <img src="resources/img/team-m.jpg" alt="Simon Cool">
-                    </div>
-                    <div class="member-name">Mateo Hernández</div>
-                    <div class="member-title">Compositor</div>
-                </div>  
-                <div class="col-xs-6 col-md-6 team-member">
-                    <div class="member-img">
                         <img src="resources/img/team-s.jpg" alt="Simon Cool">
                     </div>
                     <div class="member-name">Simón Correa</div>
@@ -208,9 +194,16 @@
                 </div>   
                 <div class="col-xs-6 col-md-6 team-member">
                     <div class="member-img">
+                        <img src="resources/img/team-m.jpg" alt="Simon Cool">
+                    </div>
+                    <div class="member-name">Mateo Hernández</div>
+                    <div class="member-title">Compositor</div>
+                </div>  
+                <div class="col-xs-6 col-md-6 team-member">
+                    <div class="member-img">
                         <img src="resources/img/team-v.jpg" alt="Simon Cool">
                     </div>
-                    <div class="member-name">Tomás Perez</div>
+                    <div class="member-name">Tomás Pérez</div>
                     <div class="member-title">Productor Vocal y Asistente de Grabación</div>
                 </div> 
             </div>
@@ -218,10 +211,11 @@
     </section>
    
     <section class="section-follow">
+      <h2 class="invisible">follow</h2>
        <div class="container">
            <div class="row wow fadeInLeft" data-wow-delay="0.6s">
                <div class="col-sm-12 col-md-7 me-container">
-                   <p class="follow-me">Siguenos en las redes sociales!</p>
+                   <p class="follow-me">¡Síguenos en las redes sociales!</p>
                </div>
                <div class="col me-container">
                    <a href="https://www.instagram.com/balboaestudio/" target="_blank"><i class="fab fa-instagram follow-social"></i></a>
@@ -281,28 +275,26 @@
     <section class="section-four" id="contact">
         <div class="row anti-stretch">
             <div class="col-md-12 contact-form" id="form">
-                <h1>Contactanos</h1>
+                <h1>Contáctanos</h1>
                 
-<!--
                 <div class="container">
                    <div class="row">
                        <?php
                             if($_GET[success] == 1){
-                                echo"<div class=\"col success\">Gracias! Su mensaje ha sido enviado!</div>"
+                                echo"<div class=\"col success\">Gracias! Su mensaje ha sido enviado!</div>";
                             }
                             if($_GET[success] == -1){
-                                echo"<div class=\"col error\">Oops! Hubo un error. Intenta de nuevo!</div>"
+                                echo"<div class=\"col error\">Oops! Hubo un error. Intenta de nuevo!</div>";
                             }
 
 
                         ?>
                    </div>
                 </div>
--->
-                <form action="POST" method="mailer.php">
+                <form action="mailer.php" method="post">
                     <input type="text" name="name" id="name" placeholder="Nombre">
                     <input type="text" name="email" id="email" placeholder="Email">
-                    <textarea rows="7" cols="50" name="message" id="message"placeholder="Tu mensaje aqui!"></textarea>
+                    <textarea rows="7" cols="50" name="message" id="message" placeholder="Déjanos tu mensaje"></textarea>
                     <button class="btn-full contact-submit">Enviar!</button>
                 </form>
             </div>
@@ -311,18 +303,17 @@
             </div>
         </div>
     </section>
-    
     <footer>
     <div class="container">
         <div class="row">
             <div class="col-xs-12 col-sm-4">
                 <p class="footer-info">
-                    info@balboaestudio.com<br>(318) 676-9332 <br>(317) 668-8695 <br>(034) 341-5524
+                    info@balboaestudio.com<br>Whatsapp <br><a href="https://api.whatsapp.com/send?phone=573186769332">(+57) 3186769332</a> <br><a href="https://api.whatsapp.com/send?phone=573176688695">(+57) 3176688695</a><br>Teléfono Fijo <br>(+574) 3415524
                 </p>
             </div>
             <div class="col-xs-12 col-sm-4">
                 <p class="footer-info">
-                Diagonal B No.01 - 289 <br>Medellín - Colombia
+                Diagonal 75B No. 01 - 289 <br>Medellín - Colombia
                 </p>
             </div>
             <div class="col-xs-12 col-sm-4">
@@ -344,6 +335,16 @@
     </footer>
     
 </body>
+   
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-125208988-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-125208988-1');
+    </script>
     <script>
         var map;
         var uluru = {lat: 6.212396, lng: -75.5993049};
@@ -364,9 +365,9 @@
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.5/waypoints.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="resources/js/wow.min.js"></script>
-    <script type="text/javascript" src="vendors/slick.min.js"></script>
-    <script type="text/javascript" src="resources/js/script.js"></script>
+    <script src="resources/js/wow.min.js"></script>
+    <script src="vendors/slick.min.js"></script>
+    <script src="resources/js/script.js"></script>
     
     
 
