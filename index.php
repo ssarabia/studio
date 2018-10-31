@@ -230,6 +230,54 @@
 
         <div class="js--wp-3 container">
            <h1>Nuestros Clientes</h1>
+            <div class="bands-container" dir="rtl">
+            <div class="wow fadeIn bands" data-wow-delay="1.5s" dir="rtl">
+                <div class="">
+                    <img class="client-logo grey-filter" src="resources/img/bands/1.png" alt="">
+                </div>
+                <div class="">
+                    <img class="client-logo grey-filter" src="resources/img/bands/2.png" alt="">
+                </div>
+                <div class="">
+                    <img class="client-logo grey-filter" src="resources/img/bands/3.png" alt="">
+                </div>
+                <div class="">
+                    <img class="client-logo grey-filter" src="resources/img/bands/4.png" alt="">
+                </div>
+                <div class="">
+                    <img class="client-logo grey-filter" src="resources/img/bands/5.png" alt="">
+                </div>
+                <div class="">
+                    <img class="client-logo grey-filter" src="resources/img/bands/6.png" alt="">
+                </div>
+                <div class="">
+                    <img class="client-logo grey-filter" src="resources/img/bands/7.png" alt="">
+                </div>
+                <div class="">
+                    <img class="client-logo grey-filter" src="resources/img/bands/8.png" alt="">
+                </div>
+                <div class="">
+                    <img class="client-logo grey-filter" src="resources/img/bands/9.png" alt="">
+                </div>
+                <div class="">
+                    <img class="client-logo grey-filter" src="resources/img/bands/11.png" alt="">
+                </div>
+                <div class="">
+                    <img class="client-logo grey-filter" src="resources/img/bands/12.png" alt="">
+                </div>
+                <div class="">
+                    <img class="client-logo grey-filter" src="resources/img/bands/13.png" alt="">
+                </div>
+                <div class="">
+                    <img class="client-logo grey-filter" src="resources/img/bands/14.png" alt="">
+                </div>
+                <div class="">
+                    <img class="client-logo grey-filter" src="resources/img/bands/15.png" alt="">
+                </div>
+            </div>
+            </div>
+           
+            <div>
             <div class="wow fadeIn clients" data-wow-delay="1.5s">
                 <div class="">
                     <img class="client-logo grey-filter" src="resources/img/companies/alcaldiamedellin.png" alt="">
@@ -267,6 +315,7 @@
                 <div class="">
                     <img class="client-logo grey-filter" src="resources/img/companies/vmware.png" alt="">
                 </div>
+            </div>
             </div>
         </div>
 
@@ -308,7 +357,7 @@
         <div class="row">
             <div class="col-xs-12 col-sm-4">
                 <p class="footer-info">
-                    info@balboaestudio.com<br>Whatsapp <br><a href="https://api.whatsapp.com/send?phone=573186769332">(+57) 3186769332</a> <br><a href="https://api.whatsapp.com/send?phone=573176688695">(+57) 3176688695</a><br>Teléfono Fijo <br>(+574) 3415524
+                    info@balboaestudio.com<br>Whatsapp <br><a href="https://api.whatsapp.com/send?phone=573186769332">(+57) 3186769332</a> <br>
                 </p>
             </div>
             <div class="col-xs-12 col-sm-4">
@@ -345,6 +394,7 @@
 
       gtag('config', 'UA-125208988-1');
     </script>
+    
     <script>
         var map;
         var uluru = {lat: 6.212396, lng: -75.5993049};

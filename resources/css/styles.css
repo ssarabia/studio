@@ -70,8 +70,8 @@ li.whatever {
 }
 
 .navbar-large {
-    background: -webkit-gradient(linear, left top, left bottom, from(rgba(39, 37, 37, 0.9)), to(rgba(39, 37, 37, 0.2)));
-    background: linear-gradient(to bottom, rgba(39, 37, 37, 0.9), rgba(39, 37, 37, 0.2));
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(39, 37, 37, 1)), to(rgba(39, 37, 37, 0.6)));
+    background: linear-gradient(to bottom, rgba(39, 37, 37, 1), rgba(39, 37, 37, 0.6));
     height: 90px;
     line-height: 80px;
 }
@@ -152,8 +152,8 @@ a.after:hover:after {
 
 .header-image {
     background-color: #000;
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4))), url("../img/cover3.png");
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4)), url("../img/cover3.png");
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6))), url("../img/bg2.jpeg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6)), url("../img/bg2.jpeg");
     background-position: center;
     background-size: cover;
     color: #fff;
@@ -171,7 +171,7 @@ a.after:hover:after {
 .header-logo {
     margin: 0 auto;
     display: block;
-    margin-top: 180px;
+    margin-top: 150px;
     width: 18%;
 }
 
@@ -185,12 +185,12 @@ a.after:hover:after {
 
 .title {
     color: rgb(153, 117, 62);
-    padding-top: 5%;
+    padding-top: 3%;
     font-weight: 300;
     font-size: 0.9em;
 }
 
-
+    
 /************* NAV BAR TRANSFORM ***************/
 
 nav,
@@ -462,7 +462,7 @@ h1 {
 .team img{
     width: 60%;
     border: 1px solid #99753e;
-    opacity: 0.6;
+    opacity: 1;
     transition: opacity 0.5s;
 }
 
@@ -541,6 +541,10 @@ h1 {
     text-align: center;
     padding-bottom: 10%;
     text-align: center;
+}
+
+.bands-container{
+    margin-bottom: 50px;
 }
 
 .client-logo {

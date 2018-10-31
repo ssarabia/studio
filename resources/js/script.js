@@ -23,12 +23,10 @@ if ( $(window).width() < 767) {
 }
 
 
-    
-var total = $('.slick-slideshow img').length,
-    rand = Math.floor( Math.random() * total );
+
     
     $('.clients').slick({
-        slidesToShow: 4,
+        slidesToShow: 1,
         slidesToScroll: 1,
         autoplay: true,
         autoplaySpeed: 0,
@@ -44,9 +42,27 @@ var total = $('.slick-slideshow img').length,
               }
             }
         ]
-
     });
 
+    $('.bands').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        autoplay: true,
+        rtl: true,
+        autoplaySpeed: 0,
+        speed: 5000,
+        cssEase: 'linear',
+        variableWidth: true,
+        pauseOnHover:false,
+        responsive: [
+            {
+              breakpoint: 768,
+              settings: {
+                arrows: false
+              }
+            }
+        ]
+    });
     
     $('.studio').slick({
         slidesToShow: 4,
